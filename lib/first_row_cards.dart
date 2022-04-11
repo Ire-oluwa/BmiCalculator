@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/constants.dart';
 import 'package:flutter/material.dart';
 
 class FirstRowCardContent extends StatelessWidget {
@@ -21,9 +22,7 @@ class FirstRowCardContent extends StatelessWidget {
         ),
         Text(
           label,
-          style: const TextStyle(
-            fontSize: 20.0,
-          ),
+          style: kLabelTextStyle,
         ),
       ],
     );
